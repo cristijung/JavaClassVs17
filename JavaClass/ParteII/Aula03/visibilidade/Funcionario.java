@@ -17,7 +17,6 @@ public class Funcionario {
 
     //ENCAPSULAMENTOS
     //metodos acessores - Getter e Setters
-
     public double getSalarioBase() {
         return salarioBase;
     }
@@ -44,7 +43,7 @@ public class Funcionario {
         return salarioBase * ( 1 + (1.0/3));
     }
 
-    // Este método exige um dado externo (mesesTrabalhados) para funcionar
+    // Este metodo exige um dado externo (mesesTrabalhados) para funcionar
     public double calcularDecimoTerceiro(int mesesTrabalhados) {
         // Validação de Parâmetro: Protege a lógica contra dados absurdos (ex: mês 15)
         if (mesesTrabalhados > 0 && mesesTrabalhados <= 12) {
