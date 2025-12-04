@@ -1,4 +1,4 @@
-package ParteIII.Aula07.collections.hashset;
+package ParteIII.Aula07.collections.hasmap;
 
 import java.util.HashMap;
 import java.util.Map;

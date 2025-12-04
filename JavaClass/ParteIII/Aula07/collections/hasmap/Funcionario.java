@@ -1,4 +1,4 @@
-package ParteIII.Aula07.collections.hashset;
+package ParteIII.Aula07.collections.hasmap;
 
 public class Funcionario {
     private String id;
